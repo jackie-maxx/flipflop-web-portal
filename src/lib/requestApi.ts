@@ -4,12 +4,16 @@ export const RequestApi = async (
   url: string,
   { data = "", method = "POST" }: { data?: string; method?: string } = {}
 ): Promise<any> => {
+  let headersList = {
+    Accept: "*/*",
+    "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  };
+
   return await axios({
     url: url,
     data,
     method,
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    withCredentials: false,
+    headers: headersList,
   })
     .then((res) => {
       return res.data;
