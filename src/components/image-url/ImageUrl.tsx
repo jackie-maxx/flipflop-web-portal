@@ -15,7 +15,7 @@ export default function ImageUrl({
   alt?: string;
 }) {
   if (src === null) {
-    src = "./assets/icons/no-product-img.png";
+    src = "/assets/icons/no-product-img.png";
   } else {
     if (Service.applicationMode.isDebug()) {
       src = src.replace("https", "http");

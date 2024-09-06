@@ -31,6 +31,8 @@ const nextConfig = {
       "192.168.100.105",
       "media.istockphoto.com",
       "flipflop-api.maxx4business.com",
+      "portal.maxx4business.com",
+      "jackie-maxx.github.io"
     ],
   },
 

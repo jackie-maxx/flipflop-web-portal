@@ -11,7 +11,7 @@ export default function Home() {
       <div className="text-center">
         <div className="pb-10 flex justify-center">
           <Image
-            src="./assets/logo/flipflop_logo.png"
+            src="/assets/logo/flipflop_logo.png"
             width={200}
             height={200}
             alt="logo"
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex justify-center pb-4">
           <Image
             className="w-20 py-1 border rounded-xl cursor-pointer"
-            src="./assets/logo/facebook_logo.png"
+            src="/assets/logo/facebook_logo.png"
             width={1000}
             height={1000}
             alt="facebook"
