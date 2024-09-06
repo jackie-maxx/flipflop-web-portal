@@ -8,6 +8,7 @@ export const RequestApi = async (
     url: url,
     data,
     method,
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
     withCredentials: false,
   })
     .then((res) => {
