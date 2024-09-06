@@ -15,7 +15,7 @@ const nextConfig = {
   output: isProd ? undefined : "export",
   basePath: "",
   assetPrefix: "",
-  distDir: "clients/share/build",
+  // distDir: "clients/share/build",
   images: {
     remotePatterns: [
       {
