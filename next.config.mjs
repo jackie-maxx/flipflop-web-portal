@@ -28,6 +28,7 @@ const nextConfig = {
       },
     ],
   },
+  crossOrigin: "anonymous",
   async headers() {
     return [
       {
