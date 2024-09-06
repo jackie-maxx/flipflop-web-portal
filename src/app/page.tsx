@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import facebookLogo from "@/assets/logo/facebook_logo.png";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <div className="flex justify-center pb-4">
           <Image
             className="w-20 py-1 border rounded-xl cursor-pointer"
-            src="/assets/logo/facebook_logo.png"
+            src={facebookLogo}
             width={1000}
             height={1000}
             alt="facebook"
