@@ -296,7 +296,7 @@ export default function MenuPage() {
             <ImageUrl
               width={100}
               height={100}
-              src="/assets/qr-code/qr-code-flipflop-apple-store.png"
+              src="./assets/qr-code/qr-code-flipflop-apple-store.png"
             />
           </div>
           <Button className="font-semibold text-sm">
@@ -315,7 +315,7 @@ export default function MenuPage() {
             <ImageUrl
               width={100}
               height={100}
-              src="/assets/qr-code/qr-code-flipflop-google-play.png"
+              src="./assets/qr-code/qr-code-flipflop-google-play.png"
             />
           </div>
           <Button className="font-semibold text-sm">
@@ -336,7 +336,7 @@ export default function MenuPage() {
               <ImageUrl
                 width={100}
                 height={100}
-                src="/assets/qr-code/qr-code-flipflop-apple-store.png"
+                src="./assets/qr-code/qr-code-flipflop-apple-store.png"
               />
             </div>
             <div>
@@ -344,7 +344,7 @@ export default function MenuPage() {
               <ImageUrl
                 width={100}
                 height={100}
-                src="/assets/qr-code/qr-code-flipflop-google-play.png"
+                src="./assets/qr-code/qr-code-flipflop-google-play.png"
               />
             </div>
           </div>
@@ -380,7 +380,7 @@ export default function MenuPage() {
                   <ImageUrl
                     width={80}
                     height={80}
-                    src="/assets/logo/flipflop_logo.png"
+                    src="./assets/logo/flipflop_logo.png"
                   />
                 </div>
                 <p className="font-semibold text-2xl">
@@ -418,7 +418,7 @@ export default function MenuPage() {
             </AlertDialogHeader>
           </AlertDialogContent>
         </AlertDialog>
-        <div className="fixed top-0 left-0 bg-[url('/assets/backgrounds/bg_4.jpg')] bg-cover h-full w-full" />
+        <div className="fixed top-0 left-0 bg-[url('./assets/backgrounds/bg_4.jpg')] bg-cover h-full w-full" />
 
         {/* Header */}
         <div className="h-[60px] w-full fixed top-0 left-0 z-10 px-4 overflow-hidden">
