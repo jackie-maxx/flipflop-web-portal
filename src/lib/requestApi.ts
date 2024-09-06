@@ -8,6 +8,7 @@ export const RequestApi = async (
     url: url,
     data,
     method,
+    withCredentials: false,
   })
     .then((res) => {
       return res.data;
