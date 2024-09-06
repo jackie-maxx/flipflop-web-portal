@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.tabDecorations": "enabled",
+    "workbench.editor.labelFormat": "medium"
+  }
